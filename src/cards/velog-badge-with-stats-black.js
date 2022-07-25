@@ -10,7 +10,7 @@ const createBadgeDark = (name, likes, views) => {
                     .stats{ fill: #20C997; font-weight: 500; font-size: 14px;}
                 </style>
                 <g>
-                    <rect x="2" width="${total_size}" height="25" fill="black"/>
+                    <rect x="2" width="${total_size}" height="25" fill="#24292e"/>
                     <text x="30" y="17" class="stats">${name}</text>
                     <text x="${30+name_size}" y="17" class="icon">♡</text>
                     <text x="${48+name_size}" y="17" class="stats">${likes}</text>
